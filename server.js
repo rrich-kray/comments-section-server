@@ -11,6 +11,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://comments-section-client-rrich.herokuapp.com",
+      "https://comments-section-client.vercel.app/",
     ],
   })
 );
