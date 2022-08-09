@@ -12,6 +12,7 @@ app.use(
       "http://localhost:3000",
       "https://comments-section-client-rrich.herokuapp.com",
       "https://comments-section-client-6xwcyhtlm-rrich-kray.vercel.app/",
+      "https://comments-section-client.vercel.app/",
     ],
   })
 );
