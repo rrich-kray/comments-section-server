@@ -4,6 +4,7 @@ const sequelize = require("./config/connection");
 const PORT = process.env.PORT || 3001;
 const cors = require("cors");
 const routes = require("./routes/apiRoutes.js");
+const path = require("path");
 
 app.use(
   cors({
