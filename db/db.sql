@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS interactive_comments_section;
+
+CREATE DATABASE interactive_comments_section;
