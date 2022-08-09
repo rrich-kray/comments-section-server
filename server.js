@@ -5,7 +5,14 @@ const PORT = process.env.PORT || 3001;
 const cors = require("cors");
 const routes = require("./routes/apiRoutes.js");
 
-app.use(cors({ origin: "http://localhost:3000" }));
+app.use(
+  cors({
+    origin: [
+      "http://localhost:3000",
+      "https://comments-section-client-rrich.herokuapp.com",
+    ],
+  })
+);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
