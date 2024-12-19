@@ -9,6 +9,7 @@ const path = require("path");
 app.use(
   cors({
     origin: [
+      "*",
       "http://localhost:3000",
       "https://comments-section-client-rrich.herokuapp.com",
       "https://comments-section-client-6xwcyhtlm-rrich-kray.vercel.app",
