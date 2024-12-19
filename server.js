@@ -16,7 +16,7 @@ app.use(
       "https://comments-section-client-k5ssms8mj-rrich-kray.vercel.app",
       "https://comments-section-client-aqwq695xr-rrich-kray.vercel.app",
       "https://comments-section-client.vercel.app",
-      "https://comments-section-client-qagv-clmc7qzxv-rrichkrays-projects.vercel.app/"
+      "https://comments-section-client-qagv-nnrgatdkv-rrichkrays-projects.vercel.app/"
     ],
   })
 );
@@ -48,7 +48,7 @@ app.use(function (req, res, next) {
   res.setHeader('Access-Control-Allow-Credentials', true);
 
   next();
-})
+});
 
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => {
