@@ -12,11 +12,9 @@ app.use(
       "*",
       "http://localhost:3000",
       "https://comments-section-client-rrich.herokuapp.com",
-      "https://comments-section-client-6xwcyhtlm-rrich-kray.vercel.app",
-      "https://comments-section-client-k5ssms8mj-rrich-kray.vercel.app",
-      "https://comments-section-client-aqwq695xr-rrich-kray.vercel.app",
       "https://comments-section-client.vercel.app",
-      "https://comments-section-client-qagv-nnrgatdkv-rrichkrays-projects.vercel.app/"
+      "https://comments-section-client-qagv-mfkv1smjt-rrichkrays-projects.vercel.app/",
+      "https://comments-section-client-c0c9d4cc27ce.herokuapp.com/"
     ],
   })
 );
